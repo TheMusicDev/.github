@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" width="1600" height="480" role="img" aria-label="The Music Dev — Accessible technology for independent music">
+  <style>
+    .bar { fill: #fac775; transform-origin: center 320px; animation: eq 2.4s ease-in-out infinite; }
+    @keyframes eq {
+      0%, 100% { transform: scaleY(1); }
+      50%      { transform: scaleY(var(--h, 1.6)); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .bar { animation: none; }
+    }
+  </style>
+
+  <rect width="1600" height="480" fill="#0f6b57"/>
+  <rect width="1600" height="480" fill="#145244" opacity="0.35"/>
+
+  <!-- equalizer: baseline at y=320, bars grow upward -->
+  <g>
+    <rect class="bar" x="80"  y="212" width="10" height="108" style="--h:1.35"/>
+    <rect class="bar" x="108" y="240" width="10" height="80"  style="--h:1.9"  />
+    <rect class="bar" x="136" y="188" width="10" height="132" style="--h:1.25" />
+    <rect class="bar" x="164" y="256" width="10" height="64"  style="--h:2.1"  />
+    <rect class="bar" x="192" y="170" width="10" height="150" style="--h:1.15" />
+    <rect class="bar" x="220" y="236" width="10" height="84"  style="--h:1.75" />
+    <rect class="bar" x="248" y="196" width="10" height="124" style="--h:1.4"  />
+    <rect class="bar" x="276" y="262" width="10" height="58"  style="--h:2.3"  />
+    <rect class="bar" x="304" y="204" width="10" height="116" style="--h:1.3"  />
+    <rect class="bar" x="332" y="246" width="10" height="74"  style="--h:1.85" />
+    <rect class="bar" x="360" y="180" width="10" height="140" style="--h:1.2"  />
+    <rect class="bar" x="388" y="254" width="10" height="66"  style="--h:2.0"  />
+    <rect class="bar" x="416" y="222" width="10" height="98"  style="--h:1.5"  />
+    <rect class="bar" x="444" y="184" width="10" height="136" style="--h:1.25" />
+    <rect class="bar" x="472" y="258" width="10" height="62"  style="--h:2.15" />
+    <rect class="bar" x="500" y="198" width="10" height="122" style="--h:1.4"  />
+    <rect class="bar" x="528" y="234" width="10" height="86"  style="--h:1.8"  />
+    <rect class="bar" x="556" y="176" width="10" height="144" style="--h:1.15" />
+    <rect class="bar" x="584" y="248" width="10" height="72"  style="--h:2.05" />
+    <rect class="bar" x="612" y="210" width="10" height="110" style="--h:1.35" />
+    <rect class="bar" x="640" y="182" width="10" height="138" style="--h:1.25" />
+    <rect class="bar" x="668" y="250" width="10" height="70"  style="--h:2.1"  />
+    <rect class="bar" x="696" y="216" width="10" height="104" style="--h:1.45" />
+    <rect class="bar" x="724" y="190" width="10" height="130" style="--h:1.3"  />
+    <rect class="bar" x="752" y="256" width="10" height="64"  style="--h:2.2"  />
+    <rect class="bar" x="780" y="202" width="10" height="118" style="--h:1.4"  />
+    <rect class="bar" x="808" y="232" width="10" height="88"  style="--h:1.75" />
+    <rect class="bar" x="836" y="174" width="10" height="146" style="--h:1.15" />
+    <rect class="bar" x="864" y="252" width="10" height="68"  style="--h:2.1"  />
+    <rect class="bar" x="892" y="206" width="10" height="114" style="--h:1.35" />
+    <rect class="bar" x="920" y="238" width="10" height="82"  style="--h:1.8"  />
+    <rect class="bar" x="948" y="186" width="10" height="134" style="--h:1.2"  />
+    <rect class="bar" x="976" y="254" width="10" height="66"  style="--h:2.05" />
+    <rect class="bar" x="1004" y="218" width="10" height="102" style="--h:1.45"/>
+    <rect class="bar" x="1032" y="180" width="10" height="140" style="--h:1.25"/>
+    <rect class="bar" x="1060" y="244" width="10" height="76"  style="--h:1.9" />
+    <rect class="bar" x="1088" y="200" width="10" height="120" style="--h:1.35"/>
+    <rect class="bar" x="1116" y="258" width="10" height="62"  style="--h:2.25"/>
+    <rect class="bar" x="1144" y="192" width="10" height="128" style="--h:1.25"/>
+    <rect class="bar" x="1172" y="236" width="10" height="84"  style="--h:1.8" />
+    <rect class="bar" x="1200" y="208" width="10" height="112" style="--h:1.4" />
+    <rect class="bar" x="1228" y="178" width="10" height="142" style="--h:1.15"/>
+    <rect class="bar" x="1256" y="250" width="10" height="70"  style="--h:2.1" />
+    <rect class="bar" x="1284" y="224" width="10" height="96"  style="--h:1.5" />
+    <rect class="bar" x="1312" y="186" width="10" height="134" style="--h:1.25"/>
+    <rect class="bar" x="1340" y="246" width="10" height="74"  style="--h:1.9" />
+    <rect class="bar" x="1368" y="214" width="10" height="106" style="--h:1.4" />
+    <rect class="bar" x="1396" y="238" width="10" height="82"  style="--h:1.8" />
+    <rect class="bar" x="1424" y="196" width="10" height="124" style="--h:1.3" />
+    <rect class="bar" x="1452" y="260" width="10" height="60"  style="--h:2.3" />
+    <rect class="bar" x="1480" y="222" width="10" height="98"  style="--h:1.5" />
+  </g>
+
+  <text x="800" y="120" text-anchor="middle"
+        font-family="Nunito Sans, Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-weight="900" font-size="76" letter-spacing="2" fill="#ffffff">The / Music / Dev</text>
+
+  <text x="800" y="392" text-anchor="middle"
+        font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-weight="600" font-size="27" letter-spacing="0.5" fill="#fac775">Accessible technology for independent music</text>
+</svg>
