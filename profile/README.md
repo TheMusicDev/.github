@@ -28,6 +28,14 @@ Our current stack — played in order:
 
 **Encore:** whatever your project needs. If the right tool doesn't exist, we build it — and you own it.
 
+## Open source
+
+We build in the open where it helps other builders:
+
+- **[jamendo-ts-client](https://github.com/TheMusicDev/jamendo-ts-client)** — type-safe TypeScript client for the Jamendo API. Zod-validated, hand-written, no code generators. `bun add @themusicdev/jamendo-ts-client`
+- **[jamendo-openapi](https://github.com/TheMusicDev/jamendo-openapi)** — community-maintained OpenAPI 3.x description of the Jamendo API. The source of truth, in progress.
+- **[ollert](https://github.com/TheMusicDev/ollert-monorepo)** — a stripped-down Trello clone. CakePHP, TanStack Start, Supabase.
+
 ## How we work
 
 - **Accessibility first** — usability beats power. Every tool starts with the person using it daily.
