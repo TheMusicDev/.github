@@ -32,6 +32,7 @@ Our current stack — played in order:
 
 We build in the open where it helps other builders:
 
+- **[env-sync](https://github.com/TheMusicDev/env-sync)** — keep per-app `.env` files in sync with your monorepo root. Each app's `.env.example` declares its contract; `env-sync check` catches drift. `bun add @themusicdev/env-sync`
 - **[jamendo-ts-client](https://github.com/TheMusicDev/jamendo-ts-client)** — type-safe TypeScript client for the Jamendo API. Zod-validated, hand-written, no code generators. `bun add @themusicdev/jamendo-ts-client`
 - **[jamendo-openapi](https://github.com/TheMusicDev/jamendo-openapi)** — community-maintained OpenAPI 3.x description of the Jamendo API. The source of truth, in progress.
 - **[ollert](https://github.com/TheMusicDev/ollert-monorepo)** — a stripped-down Trello clone. CakePHP, TanStack Start, Supabase.
