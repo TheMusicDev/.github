@@ -12,12 +12,11 @@
     /* gold sheen sweeping across the title */
     .shine {
       animation: sweep 7s ease-in-out infinite;
-      transform: translateX(-480px);
     }
     @keyframes sweep {
-      0%       { transform: translateX(-480px); }
-      30%, 70% { transform: translateX(480px); }
-      100%     { transform: translateX(-480px); }
+      0%, 8%   { transform: translateX(-480px); }
+      50%      { transform: translateX(480px); }
+      92%, 100% { transform: translateX(-480px); }
     }
   </style>
   <defs>
@@ -93,7 +92,7 @@
         font-family="Nunito Sans, Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
         font-weight="900" font-size="76" letter-spacing="2">The / Music / Dev</text></clipPath>
   <g clip-path="url(#titleClip)">
-    <rect class="shine" x="-240" y="50" width="480" height="100" fill="url(#sheen)"/>
+    <rect class="shine" x="560" y="50" width="480" height="100" fill="url(#sheen)"/>
   </g>
 
   <text x="800" y="392" text-anchor="middle"
