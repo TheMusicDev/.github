@@ -7,8 +7,26 @@
     }
     @media (prefers-reduced-motion: reduce) {
       .bar { animation: none; }
+      .shine { animation: none; opacity: 0; }
+    }
+    /* gold sheen sweeping across the title */
+    .shine {
+      animation: sweep 7s ease-in-out infinite;
+      transform: translateX(-480px);
+    }
+    @keyframes sweep {
+      0%       { transform: translateX(-480px); }
+      30%, 70% { transform: translateX(480px); }
+      100%     { transform: translateX(-480px); }
     }
   </style>
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0"   stop-color="#fac775" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fac775" stop-opacity="0.9"/>
+      <stop offset="1"   stop-color="#fac775" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
 
   <rect width="1600" height="480" fill="#0f6b57"/>
   <rect width="1600" height="480" fill="#145244" opacity="0.35"/>
@@ -71,6 +89,12 @@
   <text x="800" y="120" text-anchor="middle"
         font-family="Nunito Sans, Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
         font-weight="900" font-size="76" letter-spacing="2" fill="#ffffff">The / Music / Dev</text>
+  <clipPath id="titleClip"><text x="800" y="120" text-anchor="middle"
+        font-family="Nunito Sans, Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-weight="900" font-size="76" letter-spacing="2">The / Music / Dev</text></clipPath>
+  <g clip-path="url(#titleClip)">
+    <rect class="shine" x="-240" y="50" width="480" height="100" fill="url(#sheen)"/>
+  </g>
 
   <text x="800" y="392" text-anchor="middle"
         font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
