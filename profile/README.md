@@ -32,6 +32,8 @@ Our current stack — played in order:
 
 We build in the open where it helps other builders:
 
+- **[cakephp-daisyui](https://github.com/TheMusicDev/cakephp-daisyui)** — daisyUI 5 view helpers for CakePHP 5. All 68 daisyUI components plus daisyUI-styled `Form`, `Paginator`, `Flash` and `Breadcrumbs`, driven by an overridable class map. `composer require themusicdev/cakephp-daisyui`
+- **[cakephp-daisyui-docs](https://github.com/TheMusicDev/cakephp-daisyui-docs)** — live docs for the plugin: every component rendered by the real helper, not screenshots.
 - **[env-sync](https://github.com/TheMusicDev/env-sync)** — keep per-app `.env` files in sync with your monorepo root. Each app's `.env.example` declares its contract; `env-sync check` catches drift. `bun add @themusicdev/env-sync`
 - **[jamendo-ts-client](https://github.com/TheMusicDev/jamendo-ts-client)** — type-safe TypeScript client for the Jamendo API. Zod-validated, hand-written, no code generators. `bun add @themusicdev/jamendo-ts-client`
 - **[jamendo-openapi](https://github.com/TheMusicDev/jamendo-openapi)** — community-maintained OpenAPI 3.x description of the Jamendo API. The source of truth, in progress.
